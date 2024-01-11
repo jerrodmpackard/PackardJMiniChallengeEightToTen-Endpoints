@@ -2,9 +2,9 @@ Jerrod Packard
 January 11, 2024
 Mini Challenge Eight to Ten - Endpoints
 Created a web api with five endpoints; one that outputs a magic 8 ball response from 8 unique responses; three endpoints for a number guessing game that accepts user input and outputs a response if the user's number is higher or lower than the number guessed, and another endpoint for a restaurant picker that accepts user input and outputs a randomly generated restaurant.
-Peer review: 
-Peer review comments: 
-
+Peer review: Adien Foo
+Peer review comments: Each get request from swagger Ai and postman worked perfectly, I tried a few times to guess the correct
+number but was unsuccessful. The code is very optimized as well which made it easy to read. The only correction that really needs to be made is that for the Restaurant Picker, there needs to be 3 Endpoints instead of the single one according to the assignment page.  I liked the way it looked though in the files and on the swagger webiste.
 
 
 
