@@ -1,3 +1,3 @@
 ﻿<Project>
-  <Import Project="..\buildMultiTargeting\PackardJMiniChallengeEightToTen-Endpoints.props" />
+  <Import Project="../buildMultiTargeting/PackardJMiniChallengeEightToTen-Endpoints.props" />
 </Project>

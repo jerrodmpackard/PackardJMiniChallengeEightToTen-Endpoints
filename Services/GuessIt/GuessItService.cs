@@ -11,7 +11,7 @@ public class GuessItService : IGuessItService
 
         bool success = Int32.TryParse(easyGuess, out isANumber);
 
-        if (success)
+        if (success && isANumber > 0 && isANumber <= 10)
         {
             if (isANumber == easyRandom)
             {
@@ -41,7 +41,7 @@ public class GuessItService : IGuessItService
 
         bool success = Int32.TryParse(mediumGuess, out isANumber);
 
-        if (success)
+        if (success && isANumber > 0 && isANumber <= 50)
         {
             if (isANumber == mediumRandom)
             {
@@ -71,7 +71,7 @@ public class GuessItService : IGuessItService
 
         bool success = Int32.TryParse(hardGuess, out isANumber);
 
-        if (success)
+        if (success && isANumber > 0 && isANumber <= 100)
         {
             if (isANumber == hardRandom)
             {
